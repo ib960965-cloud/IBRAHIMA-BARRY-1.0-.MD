@@ -1,12 +1,12 @@
 {
-  "name": "KYOTAKA-MD",
+  "name": "IBRAHIMA-BARRY-1.0-.MD",
   "version": "3.0.0",
-  "description": "KYOTAKA BOT développer comme du n'importe quoi 🎯",
+  "description": " IBRAHIMA-BARRY-1.0-.MD BOT développer avec précision 😎",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name KYOTAKA-MD",
-    "stop": "pm2 stop KYOTAKA-MD",
-    "restart": "pm2 restart KYOTAKA-MD"
+    "stop": "pm2 stop IBRAHIMA-BARRY-1.0-.MD",
+    "restart": "pm2 restart IBRAHIMA-BARRY-1.0-.MD"
   },
   "dependencies": {
     "@bochilteam/scraper": "3.0.0",
