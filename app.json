@@ -1,8 +1,8 @@
 {
-  "name": "KYOTAKA-MD",
-  "description": "KYOTAKA BOT développer comme du n'importe quoi 🎯",
-  "logo": "https://files.catbox.moe/pnzrc4.png",
-  "keywords": ["KYOTAKA-MD"],
+  "name": "IBRAHIMA-BARRY-1.0-.MD",
+  "description": "IBRAHIMA-BARRY-1.0-.MD bot  développer avec précision 😎",
+  "logo": "https://files.catbox.moe/3sqkcn.png",
+  "keywords": ["IBRAHIMA-BARRY-1.0-.MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -17,7 +17,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "ＳＨＡＤＯＷ ＣＯＤＥ  ＢＹ  ＫＹＯＴＡＫＡ"
+      "value": "ＳＨＡＤＯＷ ＣＯＤＥ  ＢＹ  I B R A H I M A"
     }, 
       
     "PREFIX": {
@@ -102,21 +102,21 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*ＣＥ ＳＴＡＴＵＳ ＥＴＡＩＴ ＴＥＬＬＥＭＥＮＴ ＰＲＥＶＩＳＩＢＬＥ...  ＤＥＣＥＶＡＮＴ ＢＯＮ ＶＯＩＬＡ，ＫＹＯＴＡＫＡ Ｌ’Ａ ＲＥＣＵＰＥＲＥ*"
+      "value": "*Ceux qui s'opposent à moi ne sont pas mes ennemis...  ils sont déjà condamnés 👨‍🦯*"
    
      }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "KYOTAKA-MD"
+      "value": "IBRAHIMA-BARRY-1.0-.MD"
 
       }, 
     
     "ALIVE_IMG": {
       "description": "put here the bot Menu url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://files.catbox.moe/tmreeo.jpg" 
+      "value": "https://files.catbox.moe/l992li.jpeg" 
       },
 
     "DELETE_LINK": {
