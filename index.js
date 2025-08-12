@@ -46,7 +46,7 @@ const {
   const mode = config.MODE
   const online = config.ALWAYS_ONLINE
   const status = config.AUTO_STATUS_SEEN
-  const ownerNumber = ['243833389567']
+  const ownerNumber = ['224620769837']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -70,7 +70,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("KYOTAKA~MD~", '');
+const sessdata = config.SESSION_ID.replace("IBRAHIMA-BARRY-1.0-.MD", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -115,8 +115,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*🌑 𝐒𝐀𝐋𝐔𝐓 𝐓𝐎𝐈, 𝐔𝐓𝐈𝐋𝐈𝐒𝐀𝐓𝐄𝐔𝐑 𝐒𝐎𝐁𝐑𝐄...*
-*🤖 𝐋𝐄 𝐁𝐎𝐓 𝐊𝐘𝐎𝐓𝐀𝐊𝐀 𝐓𝐄 𝐒𝐀𝐋𝐔𝐄 𝐃𝐀𝐍𝐒 𝐋𝐄 𝐍𝐎𝐈𝐑 🔥*
+  let up = `*🌑 𝐒𝐀𝐋𝐔𝐓 𝐓𝐎𝐈, 𝐔𝐓𝐈𝐋𝐈𝐒𝐀𝐓𝐄𝐔𝐑 𝐒𝐎M𝐁𝐑𝐄...*
+*🤖 𝐋𝐄 𝐁𝐎𝐓  IBRAHIMA-BARRY-1.0-.MD 𝐓𝐄 𝐒𝐀𝐋𝐔𝐄 𝐃𝐀𝐍𝐒 𝐋𝐄 𝐍𝐎𝐈𝐑 🔥*
 *✅ 𝐂𝐎𝐍𝐍𝐄𝐗𝐈𝐎𝐍 𝐑𝐄𝐔𝐒𝐒𝐈𝐄 !*
   
 *╭───━━━━───━━━━──┉┈⚆*
@@ -127,7 +127,7 @@ const port = process.env.PORT || 9090;
 *│• 📜𝐏𝐑𝐄𝐅𝐈𝐗 : ${prefix}*
 *│• 🪾𝐌𝐎𝐃𝐄 : ${mode}*
 *│• 🪄𝐒𝐓𝐀𝐓𝐔𝐒 𝐕𝐈𝐄𝐖𝐒 : ${status}*
-*│• 🫟𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 𝟒.𝟎.𝟎*
+*│• 🫟𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 1.𝟎.𝟎*
 *┗───━━━━───━━━━──┉┈⚆*`;
     conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/LDLMs949/lordali.jpg` }, caption: up })
   }
@@ -876,7 +876,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("KYOTAKA MD STARTED ✅");
+  res.send("IBRAHIMA-BARRY-1.0-.MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
