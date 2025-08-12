@@ -4,7 +4,7 @@
   "description": " IBRAHIMA-BARRY-1.0-.MD BOT développer avec précision 😎",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name KYOTAKA-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name IBRAHIMA-BARRY-1.0-.MD",
     "stop": "pm2 stop IBRAHIMA-BARRY-1.0-.MD",
     "restart": "pm2 restart IBRAHIMA-BARRY-1.0-.MD"
   },
