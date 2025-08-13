@@ -39,7 +39,7 @@ cmd({
             return reply("❌ Format de réponse inattendu de l'API. Réessayez plus tard.");
         }
 
-        const ALIVE_IMG = 'https://files.catbox.moe/rk78tl.jpg';
+        const ALIVE_IMG = 'https://files.catbox.moe/l992li.jpeg';
 
         const formattedInfo = `*🤖 ʀᴇ́ᴘᴏɴsᴇ ᴅᴇ ᴄʜᴀᴛɢᴘᴛ:*\n\n${gptResponse}`;
 
@@ -51,7 +51,7 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐊ʏᴏᴛᴀᴋᴀ 𝐌ᴅ 𝐀𝐈 🤖',
+                    newsletterName: 'IBRAHIMA-BARRY-1.0-.𝐌ᴅ 𝐀𝐈 🤖',
                     serverMessageId: 143
                 }
             }
@@ -88,7 +88,7 @@ cmd({
     try {
         if (!q) return reply("⚠️ Veuillez fournir une requête pour Llama3 AI.");
 
-        await reply("> *KYOTAKA traite votre requête...*");
+        await reply("> *IBRAHIMA BARRY traite votre requête...*");
 
         const apiUrl = `https://api.davidcyriltech.my.id/ai/llama3?text=${encodeURIComponent(q)}`;
 
@@ -104,7 +104,7 @@ cmd({
             llamaResponse = "Impossible de traiter la réponse de l'IA.";
         }
 
-        const AI_IMG = 'https://files.catbox.moe/rk78tl.jpg';
+        const AI_IMG = 'https://files.catbox.moe/l992li.jpeg';
 
         const formattedInfo = `*🤖 ʀᴇ́ᴘᴏɴsᴇ ᴅᴇ ʟʟᴀᴍᴀ3:*\n\n${llamaResponse}`;
 
@@ -116,7 +116,7 @@ cmd({
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: '𝐊ʏᴏᴛᴀᴋᴀ 𝐌ᴅ 𝐀𝐈 🤖',
+                    newsletterName: 'IBRAHIMA-BARRY-1.0-.𝐌ᴅ 𝐀𝐈 🤖',
                     serverMessageId: 143
                 }
             }
